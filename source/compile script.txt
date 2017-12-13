@@ -1,0 +1,9 @@
+/* 
+ * DO THESE THINGS IN TERMINAL TO DEPLOY YOUR FILES
+ */
+
+make clean
+rm -rf PercoVIS.app
+qmake -spec macx-g++ -o Makefile PercoVIS.pro
+make
+macdeployqt PercoVIS.app
