@@ -1,0 +1,15 @@
+Qt OpenGL Lorenz Viewer
+Vlakkies Schreuder
+
+Make sure you have Qt4 - the layouts are a bit different in Qt4 than Qt3
+
+Compile using:
+  qmake
+  make
+Run using:
+  lorenz
+Actions:
+  Drag mouse to change view
+  Use mouse wheel to zoom
+  Adjust parameters in spin boxes
+  View neat parameters using "Preset SBR, dt & dim" selector

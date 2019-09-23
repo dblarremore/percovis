@@ -1,0 +1,11 @@
+Hello World Qt OpenGL
+Vlakkies Schreuder
+
+Compile using:
+  qmake hw.pro
+  make
+Run using:
+  hw
+Actions:
+  Drag slider to change display
+  Click on "Show Texture" to switch second triangle to texture
